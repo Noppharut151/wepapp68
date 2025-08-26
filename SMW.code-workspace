@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../SMW"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "SMW"
+	}
+}
