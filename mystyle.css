@@ -7,51 +7,93 @@ nav{
 }
 
 h1{
-    font-size: 45px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .a01{
     background-color: blueviolet;
+    height: auto;
+    width: 300px;
 }
 
-img{
+.imgPF{
     width: 400px;
     height: auto;
     margin-top: 150px;
-     margin-left: 100px;
+    margin-left: 100px;
     border: 2px;
-    border-radius: 500px;
+    border-radius: 100%;
     border-style: solid;
-    border-color: brown;
+    border-color: rgb(0, 2, 97);
 }
+
+.img-icon{
+  margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    transition: all 0.3s ease;
+}
+.img-icon:hover{
+  margin-top: 10px;
+    width: 120px;
+    height: 120px;
+}
+
 
 aside{
     width: 90%;
     padding-left: 15px;
     margin-left: 10px;
+    border-radius: 100%;
     float: right;
     font-style: italic;
     
 }
 
 .navbar {
+  margin-top: -25px;
   padding: 15px 30px;
   border-radius: 8px;
+  font-size: 20px;
 }
 
 .nav-item {
   color: black;
   text-decoration: none;
-  padding: 10px 16px;
+  padding: 10px 10px;
   border-radius: 6px;
   transition: all 0.3s ease;
 }
 
-.nav-item:hover,
-.nav-item:focus {
-  background-color: orange;
-  color: #0a2a5f;
+.nav-item:hover {
+  background-color: rgb(35, 104, 255);
+  color: #000000; 
   transform: scale(1.1) rotate(-1deg);
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
+.bg{
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 1%;
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    border-radius: 2%;
+    background-color: rgb(201, 229, 253);
+}
+
+  button {
+    background-color: #668aff;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #184eff;
+  }
